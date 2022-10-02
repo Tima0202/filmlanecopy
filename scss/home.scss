@@ -1,1 +1,28 @@
+.home{
+  .home-background-image{
+    background-image:url("../img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    object-fit: cover;
+    align-items: center;
+    //max-width:1400px;
+    width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    z-index: -1;
+    position: relative;
+  }
+  .container{
+    .content{
+      z-index: 99;
+      position: absolute;
+      top: 120px;
+      h2{
+        font-size: 36px;
+        color: yellow;
+        padding-bottom: 20px;
+      }
+    }
+  }
 
+}
